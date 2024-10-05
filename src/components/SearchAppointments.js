@@ -23,9 +23,9 @@ export default function SearchAppointments() {
 
   return (
     <>
-      <form
-        className="container form-inline"
-        // style={{ : "325px" }}
+      <form 
+        className="container form-inline text-center"
+        style={{ paddingLeft: "360px" }}
         onSubmit={onSubmit}
       >
         <input

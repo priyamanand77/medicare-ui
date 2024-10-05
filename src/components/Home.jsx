@@ -50,16 +50,12 @@ export default function Home() {
       </div>
 
 
-      <h1 className="display-3" style={{    fontWeight:"bold"}}>IDFC BANKING SYSTEM</h1>
+      <h1 className="display-3" style={{    fontWeight:"bold"}}>MEDICARE GROUP</h1>
       <p style={{ backgroundColor: "" , padding:10 ,color:"yellow" }}>
-        This is IDFC banking App for Admin Users Not for Normal Users <br />
-        Developed by Priyam anand For IDFC ADMIN Users Only{" "}
+      The MediCare system includes hospital listings, appointment booking, and access to medical records. Future plans include integrating realtime updates for emergency services and medication delivery. <br />
+        Developed by Priyanshu anand For Medicare Users Only{" "}
       </p>
-
-  
     <Button color="success"  onClick={()=>{navigate("/landing-page");}}>Click Here To Get Started</Button>
- 
-     
     </div>
   );
 }

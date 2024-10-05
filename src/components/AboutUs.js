@@ -49,10 +49,8 @@ export default function AboutUs() {
 
 
       <p style={{ backgroundColor: "" , padding:10 ,color:"yellow" }}>
-        We are IDFC Members <br/>Above all are the CEO of IDFC
-      </p>
-
-  
+        We are Medicare Members <br/>Above all are the Members of MEdicare Group
+      </p>  
     
     </div>
   );

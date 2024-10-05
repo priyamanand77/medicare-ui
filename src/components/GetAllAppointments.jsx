@@ -2,13 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Appointments from './Appointments';
 import { getSheduled } from '../API/service';
 import { toast } from 'react-toastify';
-import { useNavigate } from 'react-router-dom';
 
 const GetAllAppointments = (data) => {
- 
-
-
-   
     const [appointments, setAppointments] = useState([   {
         "personName": "priyam",
         "personAge": 24,
@@ -25,8 +20,6 @@ const GetAllAppointments = (data) => {
     }
     ]);
   
-
-    
     useEffect(() => {
       document.title = "getAllAppointments";
       console.log(data)

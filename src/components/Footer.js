@@ -41,7 +41,7 @@ return (
     
 		</Row>
         <br/>
-        <h5 className="text-center" style={{color:"white"}}> This is only for IDFC Admin User @copyrights 2021 Developed by Priyam Anand</h5>
+        <h5 className="text-center" style={{color:"white"}}> This is only for Medicare User @copyrights 2024 Developed by Priyanshu Anand</h5>
 	</Container>
 	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 

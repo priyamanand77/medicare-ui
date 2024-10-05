@@ -7,17 +7,16 @@ import {
   CardText,
   Container,
 } from "reactstrap";
-import { useNavigate } from "react-router-dom";
 import { getHospitalImage } from '../Image/Images';
 const Appointments = ({details}) => {
-  const navigate = useNavigate();
+
     return (
         <div>
           <Card
             className="container my-2"
             style={{
               width: "23rem",
-              height: "25rem",
+              height: "30rem",
             }}
           >
             <img

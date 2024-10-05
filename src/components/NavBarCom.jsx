@@ -88,7 +88,6 @@ export default function NavBarCom(props) {
         style={{ paddingLeft: 1524, float: "right", position: "absolute" }}
       >
       
-
         <Link to="/home">
           <img
             src={require("../Image/logo.png")}
